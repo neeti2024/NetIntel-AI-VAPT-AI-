@@ -1,7 +1,7 @@
 # NetIntel AI
 
 This is a Next.js application built in Firebase Studio. It provides an interface for running security scans using popular open-source tools and leverages AI for report generation.
-
+This project, "NetIntel AI", is a web-based tool that helps users scan a target IP address or URL for vulnerabilities. It offers various scanning options like port scanning (Nmap), web vulnerability scanning (Nikto), and directory brute-forcing (dirb or gobuster). The tool runs these scans, shows the progress in real-time, and then uses AI to analyze the results. The AI provides a report that highlights potential vulnerabilities and suggests fixes. It can also chain different scanning tools together automatically. Finally, the user can download the generated report as a PDF
 To get started, take a look at `src/app/page.tsx`.
 
 ## Prerequisites
